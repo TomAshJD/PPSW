@@ -30,7 +30,6 @@ void LedOn(unsigned char ucLedIndeks){
 }
 }
 
-
 void LedStep (enum Directions eDirection){
 	static unsigned char sucCurrentLed = 0;
 	switch(eDirection){
