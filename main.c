@@ -25,7 +25,6 @@ void Delay(int iDelay){
 void LedInit(){
   IO1CLR = LED0_bm | LED1_bm | LED2_bm | LED3_bm;
   IO1DIR |= LED0_bm | LED1_bm | LED2_bm | LED3_bm;
-  IO1SET = LED0_bm;
 }
 
 
